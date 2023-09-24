@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry.csproj", "{244F1B6D-24E4-418A-B596-D062871CE507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPythagoreanTriple", "..\IsPythagoreanTriple\IsPythagoreanTriple.csproj", "{C8A28851-3C26-4292-83B4-089A4CDD5DEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsValidTriangleSideLengths", "..\IsValidTriangleSideLengths\IsValidTriangleSideLengths.csproj", "{ED8A5E63-57BA-44E8-B76E-4E0E6805F070}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsValidTriangleAngles", "..\IsValidTriangleAngles\IsValidTriangleAngles.csproj", "{53350752-4A23-4728-8C06-00C723994D46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{244F1B6D-24E4-418A-B596-D062871CE507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244F1B6D-24E4-418A-B596-D062871CE507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244F1B6D-24E4-418A-B596-D062871CE507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244F1B6D-24E4-418A-B596-D062871CE507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A28851-3C26-4292-83B4-089A4CDD5DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A28851-3C26-4292-83B4-089A4CDD5DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A28851-3C26-4292-83B4-089A4CDD5DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A28851-3C26-4292-83B4-089A4CDD5DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED8A5E63-57BA-44E8-B76E-4E0E6805F070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8A5E63-57BA-44E8-B76E-4E0E6805F070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8A5E63-57BA-44E8-B76E-4E0E6805F070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8A5E63-57BA-44E8-B76E-4E0E6805F070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53350752-4A23-4728-8C06-00C723994D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53350752-4A23-4728-8C06-00C723994D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53350752-4A23-4728-8C06-00C723994D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53350752-4A23-4728-8C06-00C723994D46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7D0876F-A351-4044-9C1B-7DF847A1E5E8}
+	EndGlobalSection
+EndGlobal
