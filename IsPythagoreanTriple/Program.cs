@@ -20,19 +20,16 @@ static bool IsPythagoreanTriple(int legOne, int legTwo, int legThree)
     {
         return false;
     }
-    // if leg 3 is the longest
+
     if (legThree > legOne && legThree > legTwo)
     {
         return legOne * legOne + legTwo * legTwo == legThree * legThree;
     }
 
-    // if leg 2 is the longs
     if (legTwo > legOne && legTwo > legThree)
     {
         return legOne * legOne + legThree * legThree == legTwo * legTwo;
     }
-
-    // if leg 1 is the longeast
     if (legOne > legTwo && legOne > legThree)
     {
         return legTwo * legTwo + legThree * legThree == legOne * legOne;
