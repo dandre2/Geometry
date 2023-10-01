@@ -1,9 +1,10 @@
 ﻿Console.WriteLine($"Enter value for leg 1");
-int legOne = int.Parse(Console.ReadLine());
+int legOne = ExceptionHandlingForIntegers();
 Console.WriteLine($"Enter value for leg2");
-int legTwo = int.Parse(Console.ReadLine());
+int legTwo = ReadIntegerFromConsole();
 Console.WriteLine($"Enter hypotenuse length");
-int Hypotenuse = int.Parse(Console.ReadLine());
+int Hypotenuse = ReadIntegerFromConsole();
+
 
 Console.WriteLine(IsPythagoreanTriple(legOne, legTwo, Hypotenuse));
 if (IsPythagoreanTriple(legOne, legTwo, Hypotenuse))
@@ -13,6 +14,29 @@ if (IsPythagoreanTriple(legOne, legTwo, Hypotenuse))
 else
 {
     Console.WriteLine($"The values are not a pythagorean triple");
+}
+
+static int ExceptionHandlingForIntegers()
+{
+    int output = -1;
+    while (output < 0)
+    {
+        output = ReadIntegerFromConsole();
+    }
+    return output;
+}
+static int ReadIntegerFromConsole()
+{
+    try
+    {
+        return int.Parse(s: Console.ReadLine());
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex.Message);
+        return -1;
+    }
+
 }
 static bool IsPythagoreanTriple(int legOne, int legTwo, int legThree)
 {
